@@ -10,22 +10,22 @@ $$ |  $$ |$$ |      $$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |      $$\   $$ |
 */
 :root {
 	/*Global variables that were made/edited by me*/
-	--Main-Color: rgb(167, 88, 78); /*main master color*/
-	--Secondary-Color: rgb(73, 102, 66); /*secondary color*/
-	--Third-Color: rgb(197, 218, 189); /*third color*/
-	--Color-4: rgb(211, 201, 60); /*color number 4*/
-	--Color-5: hsla(180, 54%, 48%, 0.366); /*color number 5*/
-	--Color-6: hsla(78, 60%, 39%, 0.466); /*color number 6*/
-	--Grey-Color: rgb(31, 31, 31); /*grey color*/
+	--Main-Color: rgb(155, 198, 207); /*main master color*/
+	--Secondary-Color: rgb(131, 153, 159); /*secondary color*/
+	--Third-Color: rgb(49, 67, 73); /*third color*/
+	--Color-4: rgb(49, 67, 73); /*color number 4*/
+	--Color-5: rgb(44, 28, 23); /*color number 5*/
+	--Color-6: rgb(44, 28, 23) /*color number 6*/
+	--Grey-Color: rgb(14, 17, 17); /*grey color*/
 	--Black: rgb(0,0,0); /*black color*/
-	--White: rgb(255,255,255); /*white color*/
-	--White-Second: rgb(175, 175, 175); /*white but gray color*/
-	--Red-color: rgb(255,0,0); /*red color*/
+	--White: rgb(218,218,220); /*white color*/
+	--White-Second: rgb(199, 198, 199); /*white but gray color*/
+	--Red-color: rgb(76, 40, 25); /*red color*/
 	--Neon-Line: 150,0,150; /*master neon color*/
 	--Neon-Line2: 255,0,0; /*red neon line*/
 	--Neon-Rgb: var(--Neon-Line); /*neon node #1*/
 	--Neon-Rgb2: var(--Neon-Line2); /*red noen node #2*/
-	--Cards-Background-Color: rgb(63, 0, 64);/*darker cards color*/
+	--Cards-Background-Color: rgb(85, 80, 77);/*darker cards color*/
 	/*Backgrounds*/
 	--master-background: url('https://github.com/i-Kia/gojo-theme/blob/main/background/Master%20Background.png?raw=true'); /*master background*/
 	--background-floating: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.2)) , var(--master-background)50% 50%/cover !important; /*background used in normal discord's code*/
@@ -38,7 +38,7 @@ $$ |  $$ |$$ |      $$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |      $$\   $$ |
 	/*Borders*/
 	--border1: 2px solid var(--Secondary-Color); /*master border*/
 	--border2: 2px solid var(--Third-Color); /*border 2*/
-	--border3: 2px solid rgb(90,0,150); /*border 3*/
+	--border3: 2px solid rgb(49, 67, 73); /*border 3*/
 	
 	/*Others variables*/
 	/*Radial status*/
@@ -587,7 +587,7 @@ $$ |  $$ |$$ |      $$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |      $$\   $$ |
   
   /*Custom background for home icon and for guilds with no photos*/
   .childWrapper-1j_1ub {
-	background: linear-gradient(rgba(170, 0, 158, 0.4),rgba(170, 0, 158, 0.3)) , var(--loop-gif-diamond) 50% 100%/cover !important;
+	background: linear-gradient(rgba(131, 153, 159, 0.4),rgba(131, 153, 159, 0.3)) , var(--loop-gif-diamond) 50% 100%/cover !important;
 	color: var(--text-normal);
   }
   
