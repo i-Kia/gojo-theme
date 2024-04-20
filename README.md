@@ -1,1 +1,1 @@
-"# gojo-theme" 
+# gojo-theme
